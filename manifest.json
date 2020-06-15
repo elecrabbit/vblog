@@ -1,0 +1,7 @@
+{
+    "name": "Elecrabbit_blog",
+    "short_name": "vblog",
+    "version": "1.0.0",
+    "description": "Elecrabbit 的博客",
+    "manifest_version": 2
+}

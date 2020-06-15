@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JS 面试题 | Elecrabbit的博客</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    <link rel="icon" href="/vblog/favicon.ico">
+    <link rel="manifest" href="/vblog/manifest.json">
+    <meta name="description" content="记录和分享 生活与技术">
+    <link rel="preload" href="/vblog/assets/css/0.styles.80ee9225.css" as="style"><link rel="preload" href="/vblog/assets/js/app.273634a7.js" as="script"><link rel="preload" href="/vblog/assets/js/2.8c9e40d8.js" as="script"><link rel="preload" href="/vblog/assets/js/18.ab8fafa2.js" as="script"><link rel="prefetch" href="/vblog/assets/js/10.2925db17.js"><link rel="prefetch" href="/vblog/assets/js/11.5bdc68b4.js"><link rel="prefetch" href="/vblog/assets/js/12.bbe978db.js"><link rel="prefetch" href="/vblog/assets/js/13.bc906d6a.js"><link rel="prefetch" href="/vblog/assets/js/14.df69f3e7.js"><link rel="prefetch" href="/vblog/assets/js/15.59937eaa.js"><link rel="prefetch" href="/vblog/assets/js/16.082f3800.js"><link rel="prefetch" href="/vblog/assets/js/17.6b3e7398.js"><link rel="prefetch" href="/vblog/assets/js/19.cd5e1fe1.js"><link rel="prefetch" href="/vblog/assets/js/20.7764580e.js"><link rel="prefetch" href="/vblog/assets/js/21.a9379638.js"><link rel="prefetch" href="/vblog/assets/js/22.b05732fe.js"><link rel="prefetch" href="/vblog/assets/js/23.bfbfe40d.js"><link rel="prefetch" href="/vblog/assets/js/3.2f1f7874.js"><link rel="prefetch" href="/vblog/assets/js/4.a0155084.js"><link rel="prefetch" href="/vblog/assets/js/5.13652849.js"><link rel="prefetch" href="/vblog/assets/js/6.3f94e184.js"><link rel="prefetch" href="/vblog/assets/js/7.895c3b30.js"><link rel="prefetch" href="/vblog/assets/js/8.c0d13b4a.js"><link rel="prefetch" href="/vblog/assets/js/9.95f8bbde.js">
+    <link rel="stylesheet" href="/vblog/assets/css/0.styles.80ee9225.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vblog/" class="home-link router-link-active"><!----> <span class="site-name">Elecrabbit的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vblog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/vblog/node/" class="nav-link">
+  node
+</a></div><div class="nav-item"><a href="/vblog/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/vblog/dotnet/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/vblog/hardware/" class="nav-link">
+  单片机
+</a></div><div class="nav-item"><a href="/vblog/others/" class="nav-link">
+  其他
+</a></div> <a href="https://github.com/elecrabbit/vblog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    My GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vblog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/vblog/node/" class="nav-link">
+  node
+</a></div><div class="nav-item"><a href="/vblog/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/vblog/dotnet/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/vblog/hardware/" class="nav-link">
+  单片机
+</a></div><div class="nav-item"><a href="/vblog/others/" class="nav-link">
+  其他
+</a></div> <a href="https://github.com/elecrabbit/vblog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    My GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/vblog/web/" aria-current="page" class="sidebar-link">前端记录</a></li><li><a href="/vblog/web/web前端学习笔记.html" class="sidebar-link">web前端学习笔记</a></li><li><a href="/vblog/web/如何开通国际域名和个人网站.html" class="sidebar-link">如何开通国际域名和个人网站</a></li><li><a href="/vblog/web/数据结构笔记.html" class="sidebar-link">大话数据结构笔记</a></li><li><a href="/vblog/web/推荐的coding网站信息.html" class="sidebar-link">程序员应该访问的最佳网站中文版</a></li><li><a href="/vblog/web/ES6新特性.html" class="sidebar-link">ES6新特性</a></li><li><a href="/vblog/web/Flex布局.html" class="sidebar-link">Flex布局</a></li><li><a href="/vblog/web/JavaScript学习笔记.html" class="sidebar-link">JavaScript基础</a></li><li><a href="/vblog/web/JavaScript中的函数变量作用域.html" class="sidebar-link">JavaScript中的函数变量作用域</a></li><li><a href="/vblog/web/jQuery笔记.html" class="sidebar-link">jQuery笔记</a></li><li><a href="/vblog/web/js面试题.html" class="active sidebar-link">JS 面试题</a></li><li><a href="/vblog/web/webpack4.html" class="sidebar-link">webpack4.x 配置指南</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="js-面试题"><a href="#js-面试题" class="header-anchor">#</a> JS 面试题</h1> <ol><li><p>JS中typeof返回哪些数据类型</p> <div class="language-js extra-class"><pre class="language-js"><code>string<span class="token punctuation">,</span>boolean<span class="token punctuation">,</span>number<span class="token punctuation">,</span><span class="token keyword">undefined</span><span class="token punctuation">,</span><span class="token keyword">function</span><span class="token punctuation">,</span>object
+</code></pre></div></li> <li><p>强制类型转换和隐式类型转换</p> <p>强制：parseInt，parseFloat，number</p> <p>隐式：<code>==</code>、<code>===</code></p></li> <li><p>split()和join()的区别</p> <p>split是将字符串切割成数组，join是将数组转换成字符串</p></li> <li><p>数组方法</p> <p>push() 尾部添加，pop()尾部删除，unshift()头部添加，shift()头部删除</p></li> <li><p>get和post请求的区别</p> <p>一个参数在url里，一个在body里，get的大小有限制，有安全问题，post可以提交数据</p></li> <li><p>call和apply的区别</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">Object</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span>obj1<span class="token punctuation">,</span>obj2<span class="token punctuation">,</span>obj3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">Object</span><span class="token punctuation">.</span><span class="token function">apply</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span>arguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></li> <li><p>事件委托</p> <p>利用事件的冒泡原理，让自己所触发的事件由他的父元素去执行</p></li> <li><p>闭包是什么，有什么特性，对页面有什么影响</p> <p>闭包就是能够读取其他函数内部变量的函数，使得函数不被GC回收，如果过多使用闭包容易导致内存泄露。</p></li> <li><p>如何阻止事件冒泡和默认事件</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token constant">IE</span>阻止冒泡<span class="token operator">:</span>
+ev<span class="token punctuation">.</span>cancelBubble<span class="token operator">=</span><span class="token boolean">true</span><span class="token punctuation">;</span>
+非<span class="token constant">IE</span>阻止冒泡<span class="token operator">:</span>
+ev<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+阻止默认事件：
+<span class="token number">1.</span> <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token number">2.</span> ev<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token constant">VUE</span><span class="token operator">:</span>
+<span class="token operator">&lt;</span>div @click<span class="token punctuation">.</span>stop<span class="token operator">=</span><span class="token string">&quot;doSomething($event)&quot;</span><span class="token operator">&gt;</span>vue取消事件冒泡<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>div @click<span class="token punctuation">.</span>prevent<span class="token operator">=</span><span class="token string">&quot;doSomething($event)&quot;</span><span class="token operator">&gt;</span>vue阻止默认事件<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+</code></pre></div></li> <li><p>添加、删除、替换、插入到某个节点的方法</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token number">1.</span>创建新节点
+<span class="token function">createElement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//创建一个具体的元素</span>
+<span class="token function">createTextNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//创建一个文本节点</span>
+<span class="token number">2.</span>添加、移除、替换、插入
+<span class="token function">appendChild</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//添加</span>
+<span class="token function">removeChild</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//移除</span>
+<span class="token function">replaceChild</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//替换</span>
+<span class="token function">insertBefore</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//插入</span>
+<span class="token number">3.</span>查找
+<span class="token function">getElementsByTagName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//通过标签名称</span>
+<span class="token function">getElementsByName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//通过元素的Name属性</span>
+<span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//通过元素Id，唯一性</span>
+</code></pre></div></li> <li><p>jsonp的原理，为什么不是真正的ajax？</p> <p>动态创建script标签，回调函数。Ajax是页面无刷新请求数据的操作。</p></li> <li><p>document load 和document ready 的区别</p> <p>document.load 是在结构和样式，外部js以及图片加载完才执行</p> <p>document.ready 是dom树创建完成就执行的方法，原生没有这个方法，jquery中有<code>$.ready()</code></p></li> <li><p>&quot;==&quot;和&quot;===&quot;的不同</p> <p>前者会自动转换类型再判断是否相等，后者不会自动转换类型，直接比较。</p></li> <li><p>函数声明和函数表达式的区别</p> <p>在js中，解析器在向执行环境中加载数据时，对函数声明和函数表达式并非一视同仁，解析器会率先读取函数声明，并使其在执行任何代码前可用，至于函数表达式，则必须等到解析器执行到它所在的代码行才会真正被解析执行。</p> <div class="language-js extra-class"><pre class="language-js"><code>简言之，函数声明会有函数声明提升，声明可以放在调用之后；函数表达式类似变量赋值，不能放在调用之后。
+</code></pre></div></li> <li><p>对作用域上下文和this的理解</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> User <span class="token operator">=</span> <span class="token punctuation">{</span>
+    count<span class="token operator">:</span><span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">getCount</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>count<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>User<span class="token punctuation">.</span><span class="token function">getCount</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//1</span>
+<span class="token keyword">var</span> func <span class="token operator">=</span> User<span class="token punctuation">.</span>getCount<span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//undefined</span>
+<span class="token comment">//func是在window上下文中被执行的，所以不会访问到count属性</span>
+</code></pre></div></li> <li><p>定时器的问题</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">3</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token comment">//输出：4 4 4</span>
+因为<span class="token keyword">for</span>循环进行完以后才执行定时器任务，此时i<span class="token operator">=</span><span class="token number">4</span>；使用<span class="token keyword">let</span>代替<span class="token keyword">var</span>可以解决。因为<span class="token keyword">let</span>声明新的块作用域。可以保存不同的i值。
+</code></pre></div></li> <li><p>DOM节点绑定事件</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token number">1.</span> el<span class="token punctuation">.</span><span class="token function-variable function">onclick</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token number">2.</span> el<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">&quot;click&quot;</span><span class="token punctuation">,</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token number">3.</span> <span class="token operator">&lt;</span>button onclick <span class="token operator">=</span> <span class="token string">&quot;func()&quot;</span><span class="token operator">&gt;</span>点击<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span>
+</code></pre></div></li> <li><p>JS 中的事件流模型都有什么</p> <p>“事件冒泡”：事件开始由最具体的元素接受，然后逐级向上传播</p> <p>“事件捕捉”：事件由最不具体的节点先接收，然后逐级向下，一直到最具体的</p> <p>“DOM事件流”：三个阶段：事件捕捉，目标阶段，事件冒泡</p></li> <li><p>解释下面代码</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token function">alert</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//object</span>
+<span class="token comment">//null是一个只有一个值的数据类型，这个值就是null，表示一个空指针对象，所以typeof返回object</span>
+</code></pre></div></li> <li><p>正则判断字符串以字母开头，后面可以是数字，下划线，字母，长度为6-30</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> reg <span class="token operator">=</span> <span class="token regex">/^[a-zA-Z]\w{5,29}$/</span><span class="token punctuation">;</span>
+</code></pre></div></li> <li><p>null 和undefined 的区别</p> <p>null是一个表示无的对象，转换为数值时为0，undefined是一个表示无的原始值，转为数值是NaN。</p></li> <li><p>new具体干了什么</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token number">1.</span>创建一个空对象，<span class="token keyword">this</span>变量引用该对象，同时还继承了该函数的原型。
+<span class="token number">2.</span>属性和方法被加入到<span class="token keyword">this</span>引用的对象中
+<span class="token number">3.</span>新创建的对象由<span class="token keyword">this</span>所引用，并最后隐式返回<span class="token keyword">this</span>
+</code></pre></div></li> <li><p>js延迟加载的方式有哪些</p> <p>defer和async、动态创建DOM方式（创建script，插入DOM中，加载完后callBack）、按需异步载入js</p></li> <li></li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vblog/web/jQuery笔记.html" class="prev">
+        jQuery笔记
+      </a></span> <span class="next"><a href="/vblog/web/webpack4.html">
+        webpack4.x 配置指南
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/vblog/assets/js/app.273634a7.js" defer></script><script src="/vblog/assets/js/2.8c9e40d8.js" defer></script><script src="/vblog/assets/js/18.ab8fafa2.js" defer></script>
+  </body>
+</html>
